@@ -9,6 +9,19 @@ app.set("view engine", "ejs")
 app.use(bp.urlencoded({ extended: false }))
 app.use(bp.json())
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 app.get("/", (req, res) => {
   res.render("index")
 })
